@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		279D7FD0D43E4D1058BF7C91 /* Pods_Music_SwiftUI___Alamofire_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D51F990A634CED08FC2AA69 /* Pods_Music_SwiftUI___Alamofire_.framework */; };
 		7471426926185BD800EBF655 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471426826185BD800EBF655 /* AppDelegate.swift */; };
 		7471426B26185BD800EBF655 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471426A26185BD800EBF655 /* SceneDelegate.swift */; };
 		7471426D26185BD800EBF655 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471426C26185BD800EBF655 /* LibraryViewController.swift */; };
@@ -15,9 +16,14 @@
 		7471427526185BDB00EBF655 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7471427326185BDB00EBF655 /* LaunchScreen.storyboard */; };
 		7471427E26185C6900EBF655 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471427D26185C6900EBF655 /* MainTabBarController.swift */; };
 		7471428226185EDC00EBF655 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471428126185EDC00EBF655 /* SearchViewController.swift */; };
+		74EFDCDF2618A63200532F3E /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EFDCDE2618A63200532F3E /* SearchResponse.swift */; };
+		74EFDCE52618B28D00532F3E /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EFDCE42618B28D00532F3E /* NetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		066BD1009F0DFF1338B40FC1 /* Pods-Music(SwiftUI + Alamofire).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Music(SwiftUI + Alamofire).debug.xcconfig"; path = "Target Support Files/Pods-Music(SwiftUI + Alamofire)/Pods-Music(SwiftUI + Alamofire).debug.xcconfig"; sourceTree = "<group>"; };
+		1BAD53AB6F4C1E27E8D4CE9A /* Pods-Music(SwiftUI + Alamofire).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Music(SwiftUI + Alamofire).release.xcconfig"; path = "Target Support Files/Pods-Music(SwiftUI + Alamofire)/Pods-Music(SwiftUI + Alamofire).release.xcconfig"; sourceTree = "<group>"; };
+		1D51F990A634CED08FC2AA69 /* Pods_Music_SwiftUI___Alamofire_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Music_SwiftUI___Alamofire_.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7471426526185BD800EBF655 /* Music(SwiftUI + Alamofire).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Music(SwiftUI + Alamofire).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7471426826185BD800EBF655 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7471426A26185BD800EBF655 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +34,8 @@
 		7471427626185BDB00EBF655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7471427D26185C6900EBF655 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		7471428126185EDC00EBF655 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		74EFDCDE2618A63200532F3E /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
+		74EFDCE42618B28D00532F3E /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				279D7FD0D43E4D1058BF7C91 /* Pods_Music_SwiftUI___Alamofire_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +55,8 @@
 			children = (
 				7471426726185BD800EBF655 /* Music(SwiftUI + Alamofire) */,
 				7471426626185BD800EBF655 /* Products */,
+				8A7102FF2DF14B2920548F70 /* Pods */,
+				7A50018365826819DB585276 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,12 +76,31 @@
 				7471426C26185BD800EBF655 /* LibraryViewController.swift */,
 				7471427D26185C6900EBF655 /* MainTabBarController.swift */,
 				7471428126185EDC00EBF655 /* SearchViewController.swift */,
+				74EFDCE42618B28D00532F3E /* NetworkService.swift */,
+				74EFDCDE2618A63200532F3E /* SearchResponse.swift */,
 				7471426E26185BD800EBF655 /* Main.storyboard */,
 				7471427126185BDB00EBF655 /* Assets.xcassets */,
 				7471427326185BDB00EBF655 /* LaunchScreen.storyboard */,
 				7471427626185BDB00EBF655 /* Info.plist */,
 			);
 			path = "Music(SwiftUI + Alamofire)";
+			sourceTree = "<group>";
+		};
+		7A50018365826819DB585276 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D51F990A634CED08FC2AA69 /* Pods_Music_SwiftUI___Alamofire_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A7102FF2DF14B2920548F70 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				066BD1009F0DFF1338B40FC1 /* Pods-Music(SwiftUI + Alamofire).debug.xcconfig */,
+				1BAD53AB6F4C1E27E8D4CE9A /* Pods-Music(SwiftUI + Alamofire).release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7471427926185BDB00EBF655 /* Build configuration list for PBXNativeTarget "Music(SwiftUI + Alamofire)" */;
 			buildPhases = (
+				BE0C6CA267371212DD62BD37 /* [CP] Check Pods Manifest.lock */,
 				7471426126185BD800EBF655 /* Sources */,
 				7471426226185BD800EBF655 /* Frameworks */,
 				7471426326185BD800EBF655 /* Resources */,
+				757F0D122365C1A8A5749772 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -138,6 +170,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		757F0D122365C1A8A5749772 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Music(SwiftUI + Alamofire)/Pods-Music(SwiftUI + Alamofire)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Music(SwiftUI + Alamofire)/Pods-Music(SwiftUI + Alamofire)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Music(SwiftUI + Alamofire)/Pods-Music(SwiftUI + Alamofire)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE0C6CA267371212DD62BD37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Music(SwiftUI + Alamofire)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7471426126185BD800EBF655 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -145,9 +219,11 @@
 			files = (
 				7471428226185EDC00EBF655 /* SearchViewController.swift in Sources */,
 				7471426D26185BD800EBF655 /* LibraryViewController.swift in Sources */,
+				74EFDCDF2618A63200532F3E /* SearchResponse.swift in Sources */,
 				7471426926185BD800EBF655 /* AppDelegate.swift in Sources */,
 				7471427E26185C6900EBF655 /* MainTabBarController.swift in Sources */,
 				7471426B26185BD800EBF655 /* SceneDelegate.swift in Sources */,
+				74EFDCE52618B28D00532F3E /* NetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +367,7 @@
 		};
 		7471427A26185BDB00EBF655 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 066BD1009F0DFF1338B40FC1 /* Pods-Music(SwiftUI + Alamofire).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +387,7 @@
 		};
 		7471427B26185BDB00EBF655 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BAD53AB6F4C1E27E8D4CE9A /* Pods-Music(SwiftUI + Alamofire).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
