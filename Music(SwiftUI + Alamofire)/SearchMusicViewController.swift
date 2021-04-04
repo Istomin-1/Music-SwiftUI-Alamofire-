@@ -65,6 +65,5 @@ extension SearchMusicViewController: UISearchBarDelegate {
                 self?.tableView.reloadData()
             }
         })
-        
     }
 }

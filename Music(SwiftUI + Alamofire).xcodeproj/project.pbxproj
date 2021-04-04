@@ -8,9 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		279D7FD0D43E4D1058BF7C91 /* Pods_Music_SwiftUI___Alamofire_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D51F990A634CED08FC2AA69 /* Pods_Music_SwiftUI___Alamofire_.framework */; };
+		74166B442619FAAB00CEEABE /* CMTime + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74166B432619FAAB00CEEABE /* CMTime + Extension.swift */; };
 		741CEFC62619B43A00E7BD41 /* TrackCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 741CEFC52619B43A00E7BD41 /* TrackCell.xib */; };
 		741CEFC92619B46D00E7BD41 /* TrackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741CEFC82619B46D00E7BD41 /* TrackCell.swift */; };
 		741CEFD32619CAFD00E7BD41 /* FoterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741CEFD22619CAFD00E7BD41 /* FoterView.swift */; };
+		741CEFD82619DB6A00E7BD41 /* TrackDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 741CEFD72619DB6A00E7BD41 /* TrackDetailView.xib */; };
+		741CEFDB2619DB7D00E7BD41 /* TrackDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741CEFDA2619DB7D00E7BD41 /* TrackDetailView.swift */; };
 		7471426926185BD800EBF655 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471426826185BD800EBF655 /* AppDelegate.swift */; };
 		7471426B26185BD800EBF655 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471426A26185BD800EBF655 /* SceneDelegate.swift */; };
 		7471426D26185BD800EBF655 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471426C26185BD800EBF655 /* LibraryViewController.swift */; };
@@ -35,9 +38,12 @@
 		066BD1009F0DFF1338B40FC1 /* Pods-Music(SwiftUI + Alamofire).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Music(SwiftUI + Alamofire).debug.xcconfig"; path = "Target Support Files/Pods-Music(SwiftUI + Alamofire)/Pods-Music(SwiftUI + Alamofire).debug.xcconfig"; sourceTree = "<group>"; };
 		1BAD53AB6F4C1E27E8D4CE9A /* Pods-Music(SwiftUI + Alamofire).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Music(SwiftUI + Alamofire).release.xcconfig"; path = "Target Support Files/Pods-Music(SwiftUI + Alamofire)/Pods-Music(SwiftUI + Alamofire).release.xcconfig"; sourceTree = "<group>"; };
 		1D51F990A634CED08FC2AA69 /* Pods_Music_SwiftUI___Alamofire_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Music_SwiftUI___Alamofire_.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74166B432619FAAB00CEEABE /* CMTime + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CMTime + Extension.swift"; sourceTree = "<group>"; };
 		741CEFC52619B43A00E7BD41 /* TrackCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrackCell.xib; sourceTree = "<group>"; };
 		741CEFC82619B46D00E7BD41 /* TrackCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCell.swift; sourceTree = "<group>"; };
 		741CEFD22619CAFD00E7BD41 /* FoterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoterView.swift; sourceTree = "<group>"; };
+		741CEFD72619DB6A00E7BD41 /* TrackDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrackDetailView.xib; sourceTree = "<group>"; };
+		741CEFDA2619DB7D00E7BD41 /* TrackDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDetailView.swift; sourceTree = "<group>"; };
 		7471426526185BD800EBF655 /* Music(SwiftUI + Alamofire).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Music(SwiftUI + Alamofire).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7471426826185BD800EBF655 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7471426A26185BD800EBF655 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -97,6 +103,15 @@
 			path = FoterView;
 			sourceTree = "<group>";
 		};
+		741CEFD62619D9D700E7BD41 /* TrackDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				741CEFD72619DB6A00E7BD41 /* TrackDetailView.xib */,
+				741CEFDA2619DB7D00E7BD41 /* TrackDetailView.swift */,
+			);
+			path = TrackDetailView;
+			sourceTree = "<group>";
+		};
 		7471425C26185BD800EBF655 = {
 			isa = PBXGroup;
 			children = (
@@ -123,9 +138,9 @@
 				74EFDCF72618BFEE00532F3E /* Services */,
 				7471427D26185C6900EBF655 /* MainTabBarController.swift */,
 				74EFDCE72618BF4B00532F3E /* Search */,
-				74EFDD102618CFD200532F3E /* Helpers */,
 				7471428126185EDC00EBF655 /* SearchMusicViewController.swift */,
 				7471426C26185BD800EBF655 /* LibraryViewController.swift */,
+				74EFDD102618CFD200532F3E /* Helpers */,
 				7471426E26185BD800EBF655 /* Main.storyboard */,
 				7471427126185BDB00EBF655 /* Assets.xcassets */,
 				7471427326185BDB00EBF655 /* LaunchScreen.storyboard */,
@@ -137,6 +152,7 @@
 		74EFDCE72618BF4B00532F3E /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				741CEFD62619D9D700E7BD41 /* TrackDetailView */,
 				741CEFD12619CAB800E7BD41 /* FoterView */,
 				741CEFC42619B40B00E7BD41 /* Cell */,
 				74EFDD082618CC0900532F3E /* SearchViewController.storyboard */,
@@ -163,6 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				74EFDD0D2618CFC900532F3E /* UIViewController + Storyboard.swift */,
+				74166B432619FAAB00CEEABE /* CMTime + Extension.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -244,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7471427526185BDB00EBF655 /* LaunchScreen.storyboard in Resources */,
+				741CEFD82619DB6A00E7BD41 /* TrackDetailView.xib in Resources */,
 				741CEFC62619B43A00E7BD41 /* TrackCell.xib in Resources */,
 				7471427226185BDB00EBF655 /* Assets.xcassets in Resources */,
 				74EFDD092618CC0900532F3E /* SearchViewController.storyboard in Resources */,
@@ -306,6 +324,7 @@
 				74EFDCDF2618A63200532F3E /* SearchResponse.swift in Sources */,
 				74EFDD052618C09400532F3E /* SearchInteractor.swift in Sources */,
 				741CEFD32619CAFD00E7BD41 /* FoterView.swift in Sources */,
+				74166B442619FAAB00CEEABE /* CMTime + Extension.swift in Sources */,
 				741CEFC92619B46D00E7BD41 /* TrackCell.swift in Sources */,
 				7471426926185BD800EBF655 /* AppDelegate.swift in Sources */,
 				7471427E26185C6900EBF655 /* MainTabBarController.swift in Sources */,
@@ -315,6 +334,7 @@
 				74EFDD032618C09400532F3E /* SearchModels.swift in Sources */,
 				7471426B26185BD800EBF655 /* SceneDelegate.swift in Sources */,
 				74EFDD002618C09400532F3E /* SearchPresenter.swift in Sources */,
+				741CEFDB2619DB7D00E7BD41 /* TrackDetailView.swift in Sources */,
 				74EFDCE52618B28D00532F3E /* NetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -466,6 +486,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9FX9R88448;
 				INFOPLIST_FILE = "Music(SwiftUI + Alamofire)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -486,6 +507,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9FX9R88448;
 				INFOPLIST_FILE = "Music(SwiftUI + Alamofire)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
