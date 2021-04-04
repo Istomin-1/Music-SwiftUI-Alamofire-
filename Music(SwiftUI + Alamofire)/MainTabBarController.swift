@@ -16,8 +16,10 @@ class MainTabBarController: UITabBarController {
         
         tabBar.tintColor = #colorLiteral(red: 0.9725490196, green: 0.2509803922, blue: 0.3725490196, alpha: 1)
         
+        let searchVC: SearchViewController = SearchViewController.loadFromStoryboard()
+        
         viewControllers = [
-            customizationViewController(rootViewController: SearchViewController(), image: #imageLiteral(resourceName: "Search"), title: "Search"), customizationViewController(rootViewController: LibraryViewController(), image: #imageLiteral(resourceName: "Library - Selected"), title: "Library")
+            customizationViewController(rootViewController: searchVC, image: #imageLiteral(resourceName: "Search"), title: "Search"), customizationViewController(rootViewController: LibraryViewController(), image: #imageLiteral(resourceName: "Library - Selected"), title: "Library")
         ]
         
     }
