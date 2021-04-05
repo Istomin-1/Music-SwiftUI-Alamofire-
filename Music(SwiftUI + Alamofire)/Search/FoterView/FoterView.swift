@@ -56,5 +56,4 @@ class FoterView: UIView {
     required init?(coder: NSCoder) {
         fatalError("init(frame:) hhas not been implemented")
     }
-    
 }

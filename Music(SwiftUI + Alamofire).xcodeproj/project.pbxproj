@@ -14,14 +14,15 @@
 		741CEFD32619CAFD00E7BD41 /* FoterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741CEFD22619CAFD00E7BD41 /* FoterView.swift */; };
 		741CEFD82619DB6A00E7BD41 /* TrackDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 741CEFD72619DB6A00E7BD41 /* TrackDetailView.xib */; };
 		741CEFDB2619DB7D00E7BD41 /* TrackDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741CEFDA2619DB7D00E7BD41 /* TrackDetailView.swift */; };
+		7443C7B1261B07FC003E6433 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7443C7B0261B07FC003E6433 /* Library.swift */; };
+		7443C7BA261B3A22003E6433 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7443C7B9261B3A22003E6433 /* UserDefaults.swift */; };
+		7443C7C3261B527B003E6433 /* Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7443C7C2261B527B003E6433 /* Nib.swift */; };
 		7471426926185BD800EBF655 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471426826185BD800EBF655 /* AppDelegate.swift */; };
 		7471426B26185BD800EBF655 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471426A26185BD800EBF655 /* SceneDelegate.swift */; };
-		7471426D26185BD800EBF655 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471426C26185BD800EBF655 /* LibraryViewController.swift */; };
 		7471427026185BD800EBF655 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7471426E26185BD800EBF655 /* Main.storyboard */; };
 		7471427226185BDB00EBF655 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7471427126185BDB00EBF655 /* Assets.xcassets */; };
 		7471427526185BDB00EBF655 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7471427326185BDB00EBF655 /* LaunchScreen.storyboard */; };
 		7471427E26185C6900EBF655 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471427D26185C6900EBF655 /* MainTabBarController.swift */; };
-		7471428226185EDC00EBF655 /* SearchMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471428126185EDC00EBF655 /* SearchMusicViewController.swift */; };
 		74EFDCDF2618A63200532F3E /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EFDCDE2618A63200532F3E /* SearchResponse.swift */; };
 		74EFDCE52618B28D00532F3E /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EFDCE42618B28D00532F3E /* NetworkService.swift */; };
 		74EFDD002618C09400532F3E /* SearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EFDCF92618C09400532F3E /* SearchPresenter.swift */; };
@@ -44,16 +45,17 @@
 		741CEFD22619CAFD00E7BD41 /* FoterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoterView.swift; sourceTree = "<group>"; };
 		741CEFD72619DB6A00E7BD41 /* TrackDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrackDetailView.xib; sourceTree = "<group>"; };
 		741CEFDA2619DB7D00E7BD41 /* TrackDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDetailView.swift; sourceTree = "<group>"; };
+		7443C7B0261B07FC003E6433 /* Library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
+		7443C7B9261B3A22003E6433 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		7443C7C2261B527B003E6433 /* Nib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nib.swift; sourceTree = "<group>"; };
 		7471426526185BD800EBF655 /* Music(SwiftUI + Alamofire).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Music(SwiftUI + Alamofire).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7471426826185BD800EBF655 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7471426A26185BD800EBF655 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7471426C26185BD800EBF655 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
 		7471426F26185BD800EBF655 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7471427126185BDB00EBF655 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7471427426185BDB00EBF655 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7471427626185BDB00EBF655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7471427D26185C6900EBF655 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
-		7471428126185EDC00EBF655 /* SearchMusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMusicViewController.swift; sourceTree = "<group>"; };
 		74EFDCDE2618A63200532F3E /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
 		74EFDCE42618B28D00532F3E /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		74EFDCF92618C09400532F3E /* SearchPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPresenter.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 			children = (
 				741CEFC52619B43A00E7BD41 /* TrackCell.xib */,
 				741CEFC82619B46D00E7BD41 /* TrackCell.swift */,
+				7443C7B9261B3A22003E6433 /* UserDefaults.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -137,9 +140,8 @@
 				7471426A26185BD800EBF655 /* SceneDelegate.swift */,
 				74EFDCF72618BFEE00532F3E /* Services */,
 				7471427D26185C6900EBF655 /* MainTabBarController.swift */,
+				7443C7B0261B07FC003E6433 /* Library.swift */,
 				74EFDCE72618BF4B00532F3E /* Search */,
-				7471428126185EDC00EBF655 /* SearchMusicViewController.swift */,
-				7471426C26185BD800EBF655 /* LibraryViewController.swift */,
 				74EFDD102618CFD200532F3E /* Helpers */,
 				7471426E26185BD800EBF655 /* Main.storyboard */,
 				7471427126185BDB00EBF655 /* Assets.xcassets */,
@@ -180,6 +182,7 @@
 			children = (
 				74EFDD0D2618CFC900532F3E /* UIViewController + Storyboard.swift */,
 				74166B432619FAAB00CEEABE /* CMTime + Extension.swift */,
+				7443C7C2261B527B003E6433 /* Nib.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -318,12 +321,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7471428226185EDC00EBF655 /* SearchMusicViewController.swift in Sources */,
 				74EFDD0E2618CFC900532F3E /* UIViewController + Storyboard.swift in Sources */,
-				7471426D26185BD800EBF655 /* LibraryViewController.swift in Sources */,
 				74EFDCDF2618A63200532F3E /* SearchResponse.swift in Sources */,
 				74EFDD052618C09400532F3E /* SearchInteractor.swift in Sources */,
 				741CEFD32619CAFD00E7BD41 /* FoterView.swift in Sources */,
+				7443C7B1261B07FC003E6433 /* Library.swift in Sources */,
 				74166B442619FAAB00CEEABE /* CMTime + Extension.swift in Sources */,
 				741CEFC92619B46D00E7BD41 /* TrackCell.swift in Sources */,
 				7471426926185BD800EBF655 /* AppDelegate.swift in Sources */,
@@ -333,6 +335,8 @@
 				74EFDD022618C09400532F3E /* SearchRouter.swift in Sources */,
 				74EFDD032618C09400532F3E /* SearchModels.swift in Sources */,
 				7471426B26185BD800EBF655 /* SceneDelegate.swift in Sources */,
+				7443C7C3261B527B003E6433 /* Nib.swift in Sources */,
+				7443C7BA261B3A22003E6433 /* UserDefaults.swift in Sources */,
 				74EFDD002618C09400532F3E /* SearchPresenter.swift in Sources */,
 				741CEFDB2619DB7D00E7BD41 /* TrackDetailView.swift in Sources */,
 				74EFDCE52618B28D00532F3E /* NetworkService.swift in Sources */,
